@@ -1,0 +1,72 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* p {
+	color: black;
+	font-size: 32px;
+}
+
+#main-title {
+	font-size: 92px;
+}
+
+h1 {
+	font-size: 64px;
+	color: red;
+}
+
+h1 {
+	color: goldenrod;
+} */
+
+/* h1 {
+	font-size: 64px;
+	color: red;
+} */
+
+.hero {
+	/* background-color: rgb(25, 254, 182); */
+	color: #b82c2c;
+	background-image: url('../img/montagne-01.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+
+.main-title {
+	font-size: 64px;
+	/* color: white; */
+}
+
+.title {
+	font-size: 36px;
+	color: chocolate;
+}
+
+.team-name {
+	font-size: 24px;
+	color: blue;
+}
+
+.team-description {
+	font-size: 18px;
+}
+
+.team .name {
+	font-size: 24px;
+	color: blue;
+}
+
+.team .description {
+	font-size: 18px;
+}
+
+.team-link {
+	color: #b82c2c;
+}
+
+.team-link:hover {
+	color: blueviolet;
+}
