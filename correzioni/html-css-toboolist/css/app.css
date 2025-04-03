@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+html {
+	font-family: 'Poppins', sans-serif;
+}
+
 body {
 	background-color: #c2c2c2;
 }
@@ -12,6 +16,11 @@ body {
 ul,
 ol {
 	list-style: none;
+}
+
+button {
+	border: none;
+	background-color: transparent;
 }
 
 /* LAYOUT */
@@ -37,7 +46,103 @@ ol {
 	padding: 30px 0;
 }
 
-.todo-card {
+.card {
 	background-color: white;
 	border-radius: 10px;
+}
+
+.card-header {
+	border-bottom: 1px solid #c2c2c2;
+	padding: 14px 30px;
+}
+
+.card-body {
+	padding: 24px 30px;
+}
+
+.button {
+	border-radius: 10px;
+	padding: 0 12px;
+	font-size: 14px;
+	height: 32px;
+	background-color: rgb(120, 190, 255);
+}
+
+.button.button-outline {
+	background-color: white;
+	border: 1px solid;
+}
+
+.button.button-dark {
+	background-color: black;
+	color: white;
+}
+
+/* todo list */
+
+.item-section {
+	margin-bottom: 16px;
+}
+
+.section-title {
+	font-size: 18px;
+	margin-bottom: 6px; // non funzione se è inline
+	display: block;
+}
+
+/* .tasks-item:not(:last-child) {
+	margin-bottom: 12px;
+} */
+
+.tasks-item + .tasks-item {
+	margin-top: 12px;
+}
+
+/* .tasks-item:last-child {
+	margin-bottom: 0;
+} */
+
+.task-icon {
+	height: 20px;
+	width: 20px;
+	border: 1px solid;
+	display: inline-block;
+	margin-right: 4px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 18px;
+}
+
+.task-icon.icon-check {
+	color: green;
+}
+
+.task-icon.icon-cross {
+	color: red;
+}
+
+.task-tag {
+	padding: 0 10px;
+	font-size: 12px;
+	border-radius: 8px;
+	line-height: 20px;
+	color: white;
+	display: inline-block;
+}
+
+.task-tag.tag-website {
+	background-color: #ec4a9d;
+}
+
+/* utilities */
+.bg-orange {
+	background-color: #ff9b00;
+}
+
+.bg-blue {
+	background-color: #09a9ed;
+}
+
+.bg-lime {
+	background-color: #a3d116;
 }

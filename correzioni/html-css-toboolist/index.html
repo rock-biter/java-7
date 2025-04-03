@@ -4,6 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Toboolist</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./css/app.css" />
 	</head>
 	<body>
@@ -13,49 +19,91 @@
 
 		<main class="page-content">
 			<div class="container">
-				<div class="todo-card">
-					<div>
-						<button>Add Task</button>
-						<button>Add Section</button>
+				<div class="card">
+					<div class="card-header">
+						<button class="button">Add Task</button>
+						<button class="button button-outline">Add Section</button>
 					</div>
-					<div>
-						<ul>
-							<li>
-								<strong>New Task</strong>
-								<ul>
-									<li>
-										<span>&check;</span>
-										list item
+					<div class="card-body">
+						<ul class="todo-list">
+							<li class="item-section">
+								<strong class="section-title">
+									&blacktriangledown; New Task</strong
+								>
+								<ul class="tasks">
+									<li class="tasks-item">
+										<span class="task-icon icon-check">&check;</span>
+										<span class="task-title">Lorem ipsum dolor sit.</span>
+										<span class="task-tag bg-lime">Editorial</span>
 									</li>
-									<li>
-										<span>&check;</span>
-										list item
+									<li class="tasks-item">
+										<span class="task-icon icon-cross">&cross;</span>
+										<span class="task-title"
+											>Lorem ipsum dolor sit amet consectetur adipisicing
+											elit.</span
+										>
+										<span class="task-tag tag-website">Website</span>
+									</li>
+									<li class="tasks-item">
+										<span class="task-icon icon-check">&check;</span>
+										<span class="task-title">Lorem, ipsum dolor.</span>
+										<span class="task-tag" style="background-color: #ff9b00"
+											>Mobile</span
+										>
 									</li>
 								</ul>
 							</li>
-							<li>
-								<strong>Today</strong>
-								<ul>
-									<li>
-										<span>&check;</span>
-										list item
+							<li class="item-section">
+								<strong class="section-title">
+									&blacktriangledown; New Task</strong
+								>
+								<ul class="tasks">
+									<li class="tasks-item">
+										<span class="task-icon icon-check">&check;</span>
+										<span class="task-title">Lorem ipsum dolor sit.</span>
+										<span class="task-tag bg-lime">Editorial</span>
 									</li>
-									<li>
-										<span>&check;</span>
-										list item
+									<li class="tasks-item">
+										<span class="task-icon icon-cross">&cross;</span>
+										<span class="task-title"
+											>Lorem ipsum dolor sit amet consectetur adipisicing
+											elit.</span
+										>
+										<span class="task-tag tag-website">Website</span>
+									</li>
+									<li class="tasks-item">
+										<span class="task-icon icon-check">&check;</span>
+										<span class="task-title">Lorem, ipsum dolor.</span>
+										<span class="task-tag" style="background-color: #ff9b00"
+											>Mobile</span
+										>
 									</li>
 								</ul>
 							</li>
-							<li>
-								<strong>Upcoming</strong>
-								<ul>
-									<li>
-										<span>&check;</span>
-										list item
+							<li class="item-section">
+								<strong class="section-title">
+									&blacktriangledown; New Task</strong
+								>
+								<ul class="tasks">
+									<li class="tasks-item">
+										<span class="task-icon icon-check">&check;</span>
+										<span class="task-title">Lorem ipsum dolor sit.</span>
+										<span class="task-tag bg-lime">Editorial</span>
 									</li>
-									<li>
-										<span>&check;</span>
-										list item
+									<li class="tasks-item">
+										<span class="task-icon icon-cross">&cross;</span>
+										<span class="task-title"
+											>Lorem ipsum dolor sit amet consectetur adipisicing
+											elit.</span
+										>
+										<span class="task-tag tag-website">Website</span>
+									</li>
+									<li class="tasks-item">
+										<span class="task-icon icon-check">&check;</span>
+										<span class="task-title">Lorem, ipsum dolor.</span>
+										<span class="task-tag" style="background-color: #ff9b00"
+											>Mobile</span
+										>
 									</li>
 								</ul>
 							</li>
