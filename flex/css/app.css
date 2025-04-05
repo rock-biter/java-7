@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	padding: 20px 0;
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 24px;
+}
+
+.flex {
+	display: flex;
+	background-color: rebeccapurple;
+	padding: 20px;
+	border-radius: 16px;
+}
+
+.item {
+	padding: 20px;
+	background-color: orange;
+	color: white;
+	font-size: 20px;
+	border-radius: 8px;
+}
+
+/* flex-direction */
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-column-reverse {
+	flex-direction: column-reverse;
+}
+
+.flex-row-reverse {
+	flex-direction: row-reverse;
+}
+
+/* flex wrap */
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+/* justify content */
+
+.justify-start {
+	justify-content: flex-start;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+.justify-evenly {
+	justify-content: space-evenly;
+}
+
+.w-33 {
+	width: 33.33%;
+}
+
+.w-200 {
+	width: 200px;
+}
+
+.h-500 {
+	height: 500px;
+}
+
+.h-lg {
+	height: 150px;
+}
+
+.h-xl {
+	height: 300px;
+}
+
+/* align items */
+.items-end {
+	align-items: flex-end;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.items-start {
+	align-items: flex-start;
+}
+
+/* Flex basis */
+
+.basis-33 {
+	width: 33.33%;
+}
+
+.basis-200 {
+	width: 200px;
+}
+
+/* flex grow */
+
+.grow-1 {
+	flex-grow: 1;
+}
+
+.grow-2 {
+	flex-grow: 2;
+}
+
+.grow-3 {
+	flex-grow: 3;
+}
+
+/* flex shrink */
+
+.shrink-0 {
+	flex-shrink: 0;
+}
+
+.shrink-2 {
+	flex-shrink: 2;
+}
+
+.shrink-3 {
+	flex-shrink: 3;
+}
+
+/* align self */
+
+.self-start {
+	align-self: flex-start;
+}
+
+.self-end {
+	align-self: flex-end;
+}
+
+.self-center {
+	align-self: center;
+}
+
+/* order */
+
+.order-1 {
+	order: 1;
+}
+
+.order-2 {
+	order: 2;
+}
+
+.-order-1 {
+	order: -1;
+}
+
+.order-first {
+	order: -999;
+}
+
+.order-last {
+	order: 999;
+}
+
+/* gap */
+/* .section-gap .item {
+	margin-right: 20px;
+} */
+
+.col-gap-20 {
+	column-gap: 20px;
+}
+
+.row-gap-20 {
+	row-gap: 20px;
+}
+
+.gap-20 {
+	gap: 20px;
+}
