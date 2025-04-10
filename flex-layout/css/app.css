@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: currentColor;
+}
+
+.container-fluid {
+	padding: 24px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 24px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+}
+
+.row > * {
+	padding: 0 12px;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-33 {
+	width: calc(100% / 3);
+}
+
+.w-66 {
+	width: calc(2 * 100% / 3);
+}
+
+.w-25 {
+	width: calc(100% / 4);
+}
+
+.items-center {
+	align-items: center;
+}
+
+/* header */
+.logo {
+	height: 50px;
+}
+
+.navbar {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+
+.menu {
+	display: flex;
+	gap: 24px;
+}
+
+.menu a {
+	display: block;
+	padding: 12px 0;
+}
+
+.btn {
+	border: none;
+	background-color: coral;
+	padding: 0 16px;
+	border-radius: 10px;
+	height: 30px;
+}
+
+/* GOALS */
+.goals {
+	background-color: cornflowerblue;
+	color: white;
+}
+
+.card {
+	background-color: white;
+	padding: 10px;
+	color: black;
+	border-radius: 12px;
+	display: flex;
+	font-size: 12px;
+	align-items: center;
+	gap: 16px;
+}
+
+.card-body {
+	flex-grow: 1;
+}
+
+.icon {
+	width: 32px;
+}
+
+/* DEBUG */
+.debug .container {
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.debug .row {
+	border: 2px solid red;
+	padding: 24px;
+	border-radius: 10px;
+}
+
+.debug .row {
+	border: 2px solid red;
+	padding: 24px;
+	border-radius: 10px;
+}
+
+.debug .row > * {
+	border: 2px solid cornflowerblue;
+	padding: 24px;
+	border-radius: 10px;
+}
