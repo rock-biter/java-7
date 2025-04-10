@@ -206,3 +206,36 @@ html {
 .gap-20 {
 	gap: 20px;
 }
+
+/* align content */
+.section-align-content .item {
+	width: 200px;
+}
+
+.section-align-content .flex {
+	height: 800px;
+}
+
+.align-content-between {
+	align-content: space-between;
+}
+
+.align-content-start {
+	align-content: flex-start;
+}
+
+.align-content-end {
+	align-content: flex-end;
+}
+
+.align-content-center {
+	align-content: center;
+}
+
+.align-content-around {
+	align-content: space-around;
+}
+
+.align-content-evenly {
+	align-content: space-evenly;
+}
