@@ -1,0 +1,15 @@
+@media (min-width: 800px) {
+	.bg-blue {
+		background-color: #007bff;
+	}
+
+	.text-green {
+		color: #00fb00;
+	}
+}
+
+/* debug */
+
+.debug .row > * {
+	border: 1px solid;
+}
