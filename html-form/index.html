@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form Html</title>
+	</head>
+	<body>
+		<h1>Hello Form</h1>
+
+		<form>
+			<p>
+				<label for="email">Email Address</label>
+				<br />
+				<input id="email" type="email" required />
+				<!-- <input type="email" placeholder="Email address" /> -->
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<br />
+				<input id="password" type="password" required />
+			</p>
+
+			<p>
+				<input id="policy" type="checkbox" required />
+				<label for="policy">Acceta la Pricavy Policy bla bla bla</label>
+			</p>
+
+			<p>
+				<input type="date" />
+			</p>
+
+      <p>
+        <ul>
+          <li>
+            <input type="radio" name="gender" value="m">
+            <label for="">Maschio</label>
+          </li>
+          <li>
+            <input type="radio" name="gender" value="f">
+            <label for="">Femmina</label>
+          </li>
+          <li>
+            <input type="radio" name="gender" value="-">
+            <label for="">Altro</label>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <input type="radio" name="job" value="m">
+            <label for="">Libero Professionista</label>
+          </li>
+          <li>
+            <input type="radio" name="job" value="f">
+            <label for="">Dipendente</label>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <label for="">Ingredienti</label>
+        <ul>
+          <li>
+            <input type="checkbox" name="ingredients" value="fgpo0">
+            <label for="">Pomodoro</label>
+          </li>
+          <li>
+            <input type="checkbox" name="ingredients" value="hudf63">
+            <label for="">Mozzarella</label>
+          </li>
+          <li>
+            <input type="checkbox" name="ingredients" value="salame-piccante">
+            <label for="">Salame piccante</label>
+          </li>
+          <li>
+            <input type="checkbox" name="ingredients" value="f">
+            <label for="">Olive</label>
+          </li>
+        </ul>
+      </p>
+			<button>Invia</button>
+		</form>
+	</body>
+</html>
