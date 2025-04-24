@@ -1,0 +1,33 @@
+# Aprire un pacchetto di figurine
+
+- prendo l'album
+  - prendo l'album dallo scaffale
+  - metto l'album sul tavolo
+- prendo il pachhetto
+  - prendo il pacchetto dalla tasca
+- apro il pacchetto
+  - scrato la carta della pacchetto
+  - tiro fuori le figurine
+  - appoggio le figurine sul tavolo
+- attacco le figurine
+  FINCHE il mazzo non è finito
+  - prendiamo la fig in cima al mazzo
+  - leggiamo il numero sul retro della figurina
+  - cerco la pagina nell'album
+    - SE l'album è chiuso
+      - giro la copertina (apro l'album)
+    - SE la pagina in cui mi trovo NON contiente il numero della figa
+      - cerco la pagina
+        - SE il numero della figu è maggiore del numero piu alto presente nella pagina
+          - sfoglio in avanti l'album
+        - ALTRIMENTI
+          - sfoglio la pagina in indetro
+  - SE non gia presente
+    - attacco la figurina
+      - tolgo la pellicola dal retro
+      - accortoccio la pellicola
+      - la lancio via la pallina
+      - attacco la figu
+  - ALTRIMENTI
+    - metto la fig nel mazzo dei doppioni
+- metto tutto a posto
