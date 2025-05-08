@@ -45,11 +45,15 @@ console.log(sconto)
 console.log(prezzoFinale)
 
 // 4. stampare il prezzo del biglietto con massimo 2 cifre decimali
-const prezzoFormattato = new Intl.NumberFormat('it-IT', {
-	style: 'currency',
-	currency: 'EUR',
-}).format(prezzoFinale)
+/**
+ * Soluzione avanzata per formattare i numeri
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
+ */
+// const prezzoFormattato = new Intl.NumberFormat('it-IT', {
+// 	style: 'currency',
+// 	currency: 'EUR',
+// }).format(prezzoFinale)
+// const message = `Il prezzo del biglietto è di ${prezzoFormattato}`
 
-// const message = `Il prezzo del biglietto è di ${prezzoFinale.toFixed(2)} Euro`
-const message = `Il prezzo del biglietto è di ${prezzoFormattato}`
+const message = `Il prezzo del biglietto è di ${prezzoFinale.toFixed(2)} Euro`
 console.log(message)
