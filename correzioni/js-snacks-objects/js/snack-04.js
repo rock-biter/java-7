@@ -35,9 +35,12 @@ const messaggi = []
 for (let i = 0; i < persone.length; i++) {
 	const persona = persone[i]
 	console.log(i, persona)
-	const nome = persona.nome
-	const cognome = persona.cognome
-	const eta = persona.eta
+	// const nome = persona.nome
+	// const cognome = persona.cognome
+	// const eta = persona.eta
+
+	// destrutturazione oggetti
+	const { nome, cognome, eta } = persona
 
 	let finale = 'può guidare'
 
