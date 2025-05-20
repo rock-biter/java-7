@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Manipolazione DOM</title>
+		<style>
+			.red {
+				color: red;
+			}
+
+			.blue {
+				color: blue;
+			}
+
+			.redblue {
+				color: purple;
+			}
+
+			.bg-violet {
+				background-color: violet;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <p id="saluto" style="font-size: 32px" class="red">0</p>
+		<div>
+			<button id="change-content">Incrementa</button>
+			<button id="change-style">Cambia stile</button>
+		</div>
+  -->
+
+		<div>
+			<label for="prezzo">Prezzo in euro</label>
+			<input
+				type="text"
+				id="prezzo"
+				name="prezzo"
+				placeholder="Insirisci prezzo"
+			/>
+		</div>
+
+		<div>
+			<label for="valuta">valuta di conversione</label>
+			<select name="valuta" id="valuta">
+				<option value="dollari">Dollari</option>
+				<option value="sterline">Sterline</option>
+				<option value="franchi">Franchi Svizzeri</option>
+			</select>
+		</div>
+
+		<button id="converti">Converti</button>
+
+		<div>
+			Prezzo convertito:
+			<div id="risultato">--</div>
+		</div>
+
+		<script src="./js/app.js"></script>
+	</body>
+</html>
