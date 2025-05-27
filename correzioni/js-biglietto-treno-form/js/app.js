@@ -64,3 +64,21 @@ formElement.addEventListener('submit', function (event) {
 	// 	currency: 'EUR',
 	// }).format(prezzoFinale)
 })
+
+/**
+ * Suggeimento per bonus milestone 1
+ */
+// const options = [
+//   {
+//     text: 'Nessuno',
+//     value: ''
+//   },
+//   {
+//     text: 'Minorenni',
+//     value: 1
+//   },
+//   {
+//     text: 'Over 65',
+//     value: 2
+//   }
+// ]
